@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1061C94423FFF27B00CB6780 /* DataSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1061C94323FFF27B00CB6780 /* DataSource.framework */; };
 		11D4999D20B0D65400A1F4E7 /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D4999C20B0D65400A1F4E7 /* SwipeController.swift */; };
 		170BCE721E8340C000F46E18 /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170BCE711E8340C000F46E18 /* SwipeAnimator.swift */; };
 		3F19AD041E8D711C006B4B3A /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19AD031E8D711C006B4B3A /* SwipeFeedback.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1061C94323FFF27B00CB6780 /* DataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D4999C20B0D65400A1F4E7 /* SwipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeController.swift; sourceTree = "<group>"; };
 		170BCE711E8340C000F46E18 /* SwipeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAnimator.swift; sourceTree = "<group>"; };
 		3F19AD031E8D711C006B4B3A /* SwipeFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeFeedback.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1061C94423FFF27B00CB6780 /* DataSource.framework in Frameworks */,
 				4B20053C76B0BAE9E51BB92B /* Pods_SwipeCellKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,7 +85,6 @@
 				D09EB48B3E9BC111BD215A95 /* Pods-SwipeCellKit.debug.xcconfig */,
 				FB80AFD37A12F702BF4BCC05 /* Pods-SwipeCellKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +148,7 @@
 		A2B540A912FD3F90F7891366 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1061C94323FFF27B00CB6780 /* DataSource.framework */,
 				C02EBEB8EA3D4FF88E13B3CE /* Pods_SwipeCellKit.framework */,
 			);
 			name = Frameworks;
