@@ -5,7 +5,7 @@
 //  Copyright © 2017 Jeremy Koch. All rights reserved.
 //
 
-import UIKit
+import DataSource
 
 /**
  The `SwipeTableViewCell` class extends `UITableViewCell` and provides more flexible options for cell swiping behavior.

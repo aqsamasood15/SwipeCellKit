@@ -30,11 +30,13 @@
 		B93ECA951EDEE8A700AE05AD /* SwipeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93ECA941EDEE8A700AE05AD /* SwipeCollectionViewCellDelegate.swift */; };
 		B93ECA991EDEE93D00AE05AD /* SwipeAccessibilityCustomAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93ECA981EDEE93D00AE05AD /* SwipeAccessibilityCustomAction.swift */; };
 		B93ECA9B1EDEEABA00AE05AD /* SwipeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93ECA9A1EDEEABA00AE05AD /* SwipeOptions.swift */; };
+		FB3A470EC08EF01E6B02F08F /* Pods_SwipeCellKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E3091FC4ADE84CD0692A9F /* Pods_SwipeCellKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11D4999C20B0D65400A1F4E7 /* SwipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeController.swift; sourceTree = "<group>"; };
 		170BCE711E8340C000F46E18 /* SwipeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAnimator.swift; sourceTree = "<group>"; };
+		1BE2169B164A60932736860E /* Pods-SwipeCellKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCellKit.debug.xcconfig"; path = "Target Support Files/Pods-SwipeCellKit/Pods-SwipeCellKit.debug.xcconfig"; sourceTree = "<group>"; };
 		3F19AD031E8D711C006B4B3A /* SwipeFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeFeedback.swift; sourceTree = "<group>"; };
 		3F234AC31E44A7A400E22A38 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F234AC61E44A7A400E22A38 /* SwipeCellKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeCellKit.h; sourceTree = "<group>"; };
@@ -52,6 +54,8 @@
 		3FD0166F1E696D8D00B54FFC /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTransitionLayout.swift; sourceTree = "<group>"; };
 		3FD016DE1E6D778700B54FFC /* SwipeExpanding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeExpanding.swift; sourceTree = "<group>"; };
 		3FD016E01E6D7F7700B54FFC /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionTransitioning.swift; sourceTree = "<group>"; };
+		83D4A533436450709B2BB20C /* Pods-SwipeCellKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCellKit.release.xcconfig"; path = "Target Support Files/Pods-SwipeCellKit/Pods-SwipeCellKit.release.xcconfig"; sourceTree = "<group>"; };
+		B3E3091FC4ADE84CD0692A9F /* Pods_SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93ECA8E1EDEE80700AE05AD /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
 		B93ECA901EDEE87800AE05AD /* SwipeCollectionViewCell+Accessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwipeCollectionViewCell+Accessibility.swift"; sourceTree = "<group>"; };
 		B93ECA921EDEE88800AE05AD /* SwipeCollectionViewCell+Display.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwipeCollectionViewCell+Display.swift"; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3A470EC08EF01E6B02F08F /* Pods_SwipeCellKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,8 @@
 			children = (
 				3F234AC51E44A7A400E22A38 /* Source */,
 				3F234AC41E44A7A400E22A38 /* Products */,
+				6DE5EEB1C6DF757237CD2773 /* Pods */,
+				481627998996DE5DF89901A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +133,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		481627998996DE5DF89901A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3E3091FC4ADE84CD0692A9F /* Pods_SwipeCellKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DE5EEB1C6DF757237CD2773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BE2169B164A60932736860E /* Pods-SwipeCellKit.debug.xcconfig */,
+				83D4A533436450709B2BB20C /* Pods-SwipeCellKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -144,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F234ACB1E44A7A400E22A38 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */;
 			buildPhases = (
+				285768D1736BE6C57B0859D5 /* [CP] Check Pods Manifest.lock */,
 				3F234ABE1E44A7A400E22A38 /* Sources */,
 				3F234ABF1E44A7A400E22A38 /* Frameworks */,
 				3F234AC01E44A7A400E22A38 /* Headers */,
@@ -200,6 +226,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		285768D1736BE6C57B0859D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeCellKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F234ABE1E44A7A400E22A38 /* Sources */ = {
@@ -353,6 +404,7 @@
 		};
 		3F234ACC1E44A7A400E22A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE2169B164A60932736860E /* Pods-SwipeCellKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -376,6 +428,7 @@
 		};
 		3F234ACD1E44A7A400E22A38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D4A533436450709B2BB20C /* Pods-SwipeCellKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
