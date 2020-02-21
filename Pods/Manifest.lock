@@ -1,0 +1,28 @@
+PODS:
+  - DataSource (1.0.1):
+    - ReactiveSwift (~> 6.1)
+  - ReactiveSwift (6.2.0)
+
+DEPENDENCIES:
+  - DataSource (from `https://github.com/Fueled/DataSource.git`)
+
+SPEC REPOS:
+  trunk:
+    - ReactiveSwift
+
+EXTERNAL SOURCES:
+  DataSource:
+    :git: https://github.com/Fueled/DataSource.git
+
+CHECKOUT OPTIONS:
+  DataSource:
+    :commit: b78eecb2aa136076b0bb9ea1fcd6b0f19d0d0752
+    :git: https://github.com/Fueled/DataSource.git
+
+SPEC CHECKSUMS:
+  DataSource: 6beda2c5da93b2e8b0a7ed31d16452ac67a06bf6
+  ReactiveSwift: 3dc8800378110b13d40b46ab362afa9f6bcffc6c
+
+PODFILE CHECKSUM: beb3b5e96063a51f7144a565d1f42c0c2a7a32cf
+
+COCOAPODS: 1.8.4
